@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<!-- <comp-a></comp-a> -->
+<comp-b props="{{ tree[0].props }}"></comp-b>
+
+<view style="height: 10px;"></view>
+<common-comp tree="{{ tree }}"></common-comp>
+
+<view style="height: 10px;"></view>
+<common-list tree="{{ tree }}"></common-list>

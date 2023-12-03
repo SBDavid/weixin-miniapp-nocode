@@ -1,0 +1,3 @@
+
+<!--components/comp-b/comp-b.wxml-->
+<text>COMPC name: {{ props.name }}</text>

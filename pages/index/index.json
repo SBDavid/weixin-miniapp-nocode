@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "navigation-bar": "/components/navigation-bar/navigation-bar",
+    "comp-a": "/components/comp-a/comp-a",
+    "common-comp": "/components/common-comp/common-comp",
+    "common-list": "/components/common-list/common-list",
+    "comp-b": "/components/comp-b/comp-b"
+  }
+}

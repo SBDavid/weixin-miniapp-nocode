@@ -1,0 +1,11 @@
+<!--components/common-list/common-list.wxml-->
+<block wx:if="{{ tree }}">
+  <view wx:for="{{tree}}" wx:for-index="idx" wx:key="idx">
+    <common-item
+      sktId="{{ item.id }}"
+      sktProps="{{ item.props }}"
+      sktChildren="{{ item.children }}"
+      generic:itemnode="comp-b"
+    ></common-item>
+  </view>
+</block>

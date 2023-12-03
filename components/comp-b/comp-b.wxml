@@ -1,0 +1,5 @@
+<!--components/comp-b/comp-b.wxml-->
+<view>
+  <text>COMPB name: {{ props.name }}</text>
+  <slot></slot>
+</view>

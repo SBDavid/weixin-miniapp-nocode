@@ -1,0 +1,17 @@
+<!--components/commom-comp/common-comp.wxml-->
+<block wx:if="{{ tree }}">
+  <view wx:for="{{tree}}" wx:for-index="idx" wx:key="idx">
+    <comp-b
+      wx:if="{{item.id === 'comp-b'}}"
+      props="{{ item.props }}"
+    >
+      <block wx:if="{{ item.children }}">
+        <common-comp tree="{{ item.children }}" />
+      </block>
+    </comp-b>
+    <comp-c
+      wx:if="{{item.id === 'comp-c'}}"
+      props="{{ item.props }}"
+    />
+  </view>
+</block>

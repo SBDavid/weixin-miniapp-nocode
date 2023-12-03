@@ -1,0 +1,9 @@
+var name = 'TemplateA';
+
+module.exports = {
+  name: name,
+  setName: function setName() {
+    console.log('setName')
+    name = 'test'
+  }
+};

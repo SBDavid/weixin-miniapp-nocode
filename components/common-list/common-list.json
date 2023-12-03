@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "common-item": "/components/common-item/common-item",
+    "comp-b": "/components/comp-b/comp-b",
+    "comp-c": "/components/comp-c/comp-c"
+  }
+}

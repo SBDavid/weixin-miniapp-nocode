@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "comp-b": "/components/comp-b/comp-b",
+    "comp-c": "/components/comp-c/comp-c",
+    "common-comp": "/components/common-comp/common-comp"
+  }
+}

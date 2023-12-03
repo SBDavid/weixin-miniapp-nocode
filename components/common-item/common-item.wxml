@@ -1,0 +1,2 @@
+<!--components/common-item/common-item.wxml-->
+<itemnode props="{{ sktProps }}" children="{{ sktChildren }}"></itemnode>

@@ -1,0 +1,7 @@
+<wxs src="./template-a.wxs" module="templateA" />
+<template name="staffName" >
+  <view>
+    {{templateA.name}}: {{firstName}} {{lastName}}
+  </view>
+  <button bind:tap="{{templateA.setName}}">change</button>
+</template>
